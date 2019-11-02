@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-    <h1>掲示板</h1>
+    <h1>掲示板（辻）</h1>
     <div class="border">
         <h3>{{$post->title}}</h3>
         <a class="pl-3 btn btn-success" href="/post/edit/{{$post->id}}">編集</a>
